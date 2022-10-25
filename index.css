@@ -141,10 +141,17 @@ i {
     /* background-color: red; */
 }
 
+a {
+    color: #0f172a;
+    text-decoration: none;
+}
+
 .skillBox {
     text-align: center;
     padding: 30px;
     transition: transform .2s;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .skillBox:hover {
@@ -223,6 +230,7 @@ i {
         text-align: center;
         padding: 20px;
         transition: transform .2s;
+        text-decoration: none;
     }
 
     .skillBox:hover {
@@ -301,7 +309,10 @@ i {
         text-align: center;
         padding: 10px;
         transition: transform .2s;
+        text-decoration: none;
     }
+
+    
 
     .skillBox:hover {
         transform: scale(1.1);
