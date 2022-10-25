@@ -26,6 +26,7 @@ body {
     width: 100%;
 }
 
+/* Header ---------------------------------------------------------*/
 #header {
     display: flex;
     justify-content: center;
@@ -95,6 +96,7 @@ body {
     margin: auto;
 }
 
+/* skills ------------------------------------------------------------------ */
 #skills,
 #projects {
     display: flex;
@@ -205,6 +207,48 @@ a {
     background-color:#0f172a;
 }
 
+
+#projects {
+    /* background: #0f172a;
+    color: white; */
+    height: auto;
+}
+
+.projectLinksBox {
+    display: flex;
+    
+    justify-content:space-around;
+    /* background-color: red; */
+}
+
+.projectLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.cardFlex {
+    display: flex;
+    flex-direction: column;
+    /* background-color: yellow; */
+}
+
+#links {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 850px) {
     
     #nameText {
@@ -283,7 +327,25 @@ a {
         justify-content: space-between;
         /* background-color: red; */
     }
+
+    #cardBox {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 650px) {
     
@@ -364,36 +426,12 @@ a {
         justify-content:space-around;
         /* background-color: yellow; */
     }
+
+    #cardBox {
+        display: grid;
+        grid-template-columns: auto;
+    }
 }
 
 
-
-#projects {
-    /* background: #0f172a;
-    color: white; */
-    height: auto;
-}
-
-.projectLinksBox {
-    display: flex;
-    
-    justify-content:space-around;
-    /* background-color: red; */
-}
-
-.projectLinks {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.cardFlex {
-    display: flex;
-    flex-direction: column;
-    /* background-color: yellow; */
-}
-
-#links {
-
-}
 
