@@ -8,6 +8,7 @@ html {
 
 body {
     background-color: #0f172a;
+    margin: 0;
 }
 
 .section:nth-child(2n+1) {
@@ -22,7 +23,7 @@ body {
 
 .section {
     height: 100vh;
-    width: 100vw;
+    width: 100%;
 }
 
 #header {
@@ -285,7 +286,7 @@ i {
     }
 
     i {
-        font-size: 50px;
+        font-size: 40px;
         text-shadow: 0.02em 0.02em 0 white,
         0.03em 0.03em 0 #014f86,
         0.04em 0.04em 0 #61a5c2,
