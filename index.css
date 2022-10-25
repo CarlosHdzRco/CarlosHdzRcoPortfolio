@@ -41,24 +41,27 @@ body {
 #jobText, 
 .navText,
 #skillsText {
-    text-shadow: 0.03em 0.03em 0 rgb(0, 255, 213),
-    0.06em 0.06em 0 rgb(154, 192, 18),
-    0.09em 0.09em 0 rgb(226, 143, 87),
-    0.11em 0.11em 0 rgb(161, 24, 127);
+    text-shadow: 0.02em 0.02em 0 white,
+    0.03em 0.03em 0 #014f86,
+    0.06em 0.06em 0 #61a5c2,
+    0.09em 0.09em 0 #ffe66d,
+    0.11em 0.11em 0 #ff6700;
 }
 
 #nameText {
     font-size: 5rem;
     letter-spacing: .06ch;
     font-weight: 800;
-    margin-bottom: -10px;
+    margin-bottom: 30px;
     text-align: center;
 }
 
 #jobText {
     font-size: 2rem;
     letter-spacing: .05ch;
-    font-weight: 800;
+    font-weight: 700;
+    margin-bottom: 30px;
+
 }
 
 .nav {
@@ -68,7 +71,7 @@ body {
 }
 
 .emoji {
-    font-size:70px;
+    font-size:60px;
     margin: auto;
 }
 
@@ -91,7 +94,8 @@ body {
     margin: auto;
 }
 
-#skills {
+#skills,
+#projects {
     display: flex;
     /* justify-content: center; */
     align-items: center;
@@ -101,7 +105,8 @@ body {
     padding-top: 100px;
 }
 
-#skillsText {
+#skillsText,
+#projectsText {
     text-shadow: 0.02em 0.02em 0 white,
     0.03em 0.03em 0 #014f86,
     0.06em 0.06em 0 #61a5c2,
@@ -171,20 +176,26 @@ a {
     margin-bottom: 20px;
 }
 
+#cardBox {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
 @media screen and (max-width: 850px) {
     
     #nameText {
-        font-size: rem;
+        font-size: 4rem;
         letter-spacing: .06ch;
         font-weight: 800;
-        margin-bottom: -10px;
+        margin-bottom: 30px;
         text-align: center;
     }
 
     #jobText {
         font-size: 2rem;
         letter-spacing: .05ch;
-        font-weight: 800;
+        font-weight: 700;
+
     }
 
     .nav {
@@ -194,7 +205,7 @@ a {
     }
 
     .emoji {
-        font-size:70px;
+        font-size:40px;
         margin: auto;
     }
 
@@ -213,8 +224,10 @@ a {
 
     .navText {
         letter-spacing: .05ch;
-        font-weight: 800;
+        font-weight: 700;
         margin: auto;
+        font-size: medium;
+
     }
 
     i {
@@ -254,12 +267,12 @@ a {
         font-size: 3rem;
         letter-spacing: .06ch;
         font-weight: 800;
-        margin-bottom: -10px;
+        margin-bottom: 25px;
         text-align: center;
     }
 
     #jobText {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         letter-spacing: .05ch;
         font-weight: 800;
     }
