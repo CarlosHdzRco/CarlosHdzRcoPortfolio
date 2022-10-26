@@ -176,30 +176,56 @@ i {
     /* background-color: red; */
 }
 
-a {
+a.linkBox{
     color: #0f172a;
     text-decoration: none;
     
 }
 
-a:link{
+/* linkBox in links section */
+a.linkBox:link{
     color:#0f172a;
 }
 
-a:visited{
+a.linkBox:visited{
     color:#0f172a;
 }
 
-a:hover{
+a.linkBox:hover{
     color:#0f172a;
 }
 
-a:focus{
+a.linkBox:focus{
     color:#0f172a;
 }
 
-a:active{
+a.linkBox:active{
     color:#0f172a;
+}
+
+
+/* project links in projects area */
+a.projectLinks {
+    color: white;
+    text-decoration: none;
+}
+
+a.projectLinks:link{
+    color: white;
+}
+
+a.projectLinks:visited{
+    color: white;
+}
+
+a.projectLinks:hover{
+    color: white;}
+
+a.projectLinks:focus{
+    color: white;}
+
+a.projectLinks:active{
+    color: white;
 }
 
 .skillBox {
@@ -271,6 +297,11 @@ a:active{
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
+    transition: transform .2s;
+}
+
+.projectLinks:hover {
+    transform: scale(1.1);
 }
 
 .cardFlex {
