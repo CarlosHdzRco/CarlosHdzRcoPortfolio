@@ -74,7 +74,7 @@ body {
 }
 
 .emoji {
-    font-size:60px;
+    font-size:55px;
     margin: auto;
 }
 
@@ -94,7 +94,8 @@ body {
 .navText {
     letter-spacing: .05ch;
     font-weight: 800;
-    margin-top: 10px;
+    margin-top: 5px;
+    font-size: 1.5rem;
 }
 
 /* skills ------------------------------------------------------------------ */
