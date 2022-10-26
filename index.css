@@ -374,6 +374,13 @@ a {
         padding-bottom: 0;
         margin-bottom: -200px;
     }
+
+    #links {
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        padding-bottom: 0;
+    }
 }
 
 
@@ -499,8 +506,47 @@ a {
 
 
 @media screen and (max-width: 1100px) {
+    #skillsInfoBox {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        /* background-color: yellow; */
+    }
+    .navText {
+        letter-spacing: .05ch;
+        font-weight: 600;
+        font-size: 1.1rem;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    i {
+        font-size: 90px;
+        text-shadow: 0.02em 0.02em 0 white,
+        0.03em 0.03em 0 #014f86,
+        0.04em 0.04em 0 #61a5c2,
+        0.05em 0.05em 0 #ffe66d,
+        0.06em 0.06em 0 #ff6700;
+        /* background-color: red; */
+    }
+
     #cardBox {
         display: grid;
         grid-template-columns: auto;
+    }
+
+    #links {
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        padding-bottom: 0;
+    }
+
+    #linkButtons {
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 30px;
     }
 }
