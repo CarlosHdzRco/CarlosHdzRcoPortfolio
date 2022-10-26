@@ -522,7 +522,7 @@ a {
         margin-top: 10px;
     }
 
-    i {
+    /* i {
         font-size: 90px;
         text-shadow: 0.02em 0.02em 0 white,
         0.03em 0.03em 0 #014f86,
@@ -530,7 +530,7 @@ a {
         0.05em 0.05em 0 #ffe66d,
         0.06em 0.06em 0 #ff6700;
         /* background-color: red; */
-    }
+    } */
 
     #cardBox {
         display: grid;
