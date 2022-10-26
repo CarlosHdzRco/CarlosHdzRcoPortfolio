@@ -89,6 +89,13 @@ from, to { border-color: transparent }
 .emoji {
     font-size:55px;
     margin: auto;
+    margin-bottom: 5px;
+}
+
+#skillsIcon {
+    font-size:50px;
+    margin: auto;
+    margin-bottom: 5px;
 }
 
 .navItem {
@@ -390,6 +397,11 @@ a.projectLinks:active{
         margin: auto;
     }
 
+    #skillsIcon {
+        font-size:35px;
+        margin: auto;
+    }
+
     .navItem {
         display: flex; 
         flex-direction:column;
@@ -505,6 +517,11 @@ a.projectLinks:active{
 
     .emoji {
         font-size:35px;
+        margin: auto;
+    }
+
+    #skillsIcon {
+        font-size:30px;
         margin: auto;
     }
 
