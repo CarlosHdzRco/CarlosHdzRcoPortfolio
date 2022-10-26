@@ -517,7 +517,7 @@ a {
     .navText {
         letter-spacing: .05ch;
         font-weight: 600;
-        font-size: 1.1rem;
+        /* font-size: 1.1rem; */
         margin: auto;
         margin-top: 10px;
     }
@@ -530,7 +530,7 @@ a {
         0.05em 0.05em 0 #ffe66d,
         0.06em 0.06em 0 #ff6700;
         /* background-color: red; */
-    } */
+    
 
     #cardBox {
         display: grid;
