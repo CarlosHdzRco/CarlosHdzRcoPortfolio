@@ -182,6 +182,26 @@ a {
     
 }
 
+a:link{
+    color:#0f172a;
+}
+
+a:visited{
+    color:#0f172a;
+}
+
+a:hover{
+    color:#0f172a;
+}
+
+a:focus{
+    color:#0f172a;
+}
+
+a:active{
+    color:#0f172a;
+}
+
 .skillBox {
     text-align: center;
     padding: 30px;
@@ -282,10 +302,22 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
+    transition: transform .2s;
+}
+
+.linkBox:hover {
+    transform: scale(1.1);
 }
 
 .underLinkText {
     margin-top: 10px;
+}
+
+#aboutMeText {
+    margin-top: 50px;
+    text-align: center;
+    width: 50%;
 }
 
 
@@ -522,6 +554,14 @@ a {
         height: 100vh;
         padding-bottom: 0;
     }
+
+    #aboutMeText {
+        margin-top: 50px;
+        text-align: center;
+        width: 60%;
+        font-size: 1.1rem;
+    }
+
 
 
 }
