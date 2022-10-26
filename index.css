@@ -220,7 +220,6 @@ a {
 
 .projectLinksBox {
     display: flex;
-    
     justify-content:space-around;
     /* background-color: red; */
 }
@@ -360,13 +359,20 @@ a {
     #cardBox {
         display: grid;
         grid-template-columns: auto;
+        transform: scale(.7);
+        margin-top: -200px;
     }
 
     .cardFlex {
         display: flex;
         flex-direction: column;
-        transform: scale(.7);
+        
         /* background-color: yellow; */
+    }
+
+    #projects  {
+        padding-bottom: 0;
+        margin-bottom: -200px;
     }
 }
 
@@ -466,6 +472,8 @@ a {
     #cardBox {
         display: grid;
         grid-template-columns: auto;
+        /* max-height: fit-content; */
+        /* margin-top: 30px; */
     }
 
     #linkButtons {
@@ -473,6 +481,8 @@ a {
         grid-template-columns: auto auto;
         margin: 30px;
     }
+
+
 }
 
 
