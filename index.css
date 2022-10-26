@@ -365,7 +365,7 @@ a {
     .cardFlex {
         display: flex;
         flex-direction: column;
-        transform: scale(.8);
+        transform: scale(.7);
         /* background-color: yellow; */
     }
 }
