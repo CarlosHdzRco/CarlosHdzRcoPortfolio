@@ -482,6 +482,11 @@ a {
         margin: 30px;
     }
 
+    #skills {
+        justify-content: center;
+        height: 100vh;
+    }
+
 
 }
 
