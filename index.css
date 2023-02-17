@@ -472,6 +472,11 @@ a.projectLinks:active{
         margin-bottom: -200px;
     }
 
+    #cardBox {
+        margin-top: -600px;
+        margin-bottom: -300px;
+    }
+
     #links {
         justify-content: center;
         align-content: center;
